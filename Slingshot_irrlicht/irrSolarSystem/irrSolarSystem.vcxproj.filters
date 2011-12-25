@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\GTOPtoolbox">
+      <UniqueIdentifier>{fec30f7c-fbd8-4340-82f1-e1274c76cb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\GTOPtoolbox">
+      <UniqueIdentifier>{27cf4441-cfe8-496c-b332-76778b696208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AstroFileReader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CRTTSkyBoxSceneNode.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cubeSphere.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleVectorOps.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Geopack-2008.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexedPrimitiveNode.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="kepler.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambert_Jat.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="lunar.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="satellite.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="solar.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="t96_01.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\Astro_Functions.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\Lambert.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\mga.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\mga_dsm.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\misc4Tandem.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\Pl_Eph_An.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\PowSwingByInv.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\propagateKEP.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\time2distance.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\trajobjfuns.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GTOPtoolbox\ZeroFinder.cpp">
+      <Filter>Quelldateien\GTOPtoolbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AstroFileReader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="bsc.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="bsc2.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTTSkyBoxSceneNode.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeSphere.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="doubleVectorOps.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="f2c.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Geopack-2008.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedPrimitiveNode.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="kepler.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="lunar.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="satellite.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="solar.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="t96_01.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\Astro_Functions.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\Lambert.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\mga.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\mga_dsm.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\misc4Tandem.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\Pl_Eph_An.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\PowSwingByInv.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\propagateKEP.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\time2distance.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\trajobjfuns.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GTOPtoolbox\ZeroFinder.h">
+      <Filter>Headerdateien\GTOPtoolbox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

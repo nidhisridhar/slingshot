@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0D1E0A4-0A20-498D-8209-0A6FE09B0D1E}</ProjectGuid>
+    <RootNamespace>irrSolarSystem</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\wOrK\sdk%27s\irrlicht\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\wOrK\sdk%27s\irrlicht\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\wOrK\sdk%27s\irrlicht\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\wOrK\sdk%27s\irrlicht\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:libcmt.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>.;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AstroFileReader.cpp" />
+    <ClCompile Include="CRTTSkyBoxSceneNode.cpp" />
+    <ClCompile Include="cubeSphere.cpp" />
+    <ClCompile Include="doubleVectorOps.cpp" />
+    <ClCompile Include="Geopack-2008.c" />
+    <ClCompile Include="IndexedPrimitiveNode.cpp" />
+    <ClCompile Include="kepler.cpp" />
+    <ClCompile Include="Lambert_Jat.cpp" />
+    <ClCompile Include="lunar.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="satellite.cpp" />
+    <ClCompile Include="solar.cpp" />
+    <ClCompile Include="t96_01.c" />
+    <ClCompile Include="GTOPtoolbox\Astro_Functions.cpp" />
+    <ClCompile Include="GTOPtoolbox\Lambert.cpp" />
+    <ClCompile Include="GTOPtoolbox\mga.cpp" />
+    <ClCompile Include="GTOPtoolbox\mga_dsm.cpp" />
+    <ClCompile Include="GTOPtoolbox\misc4Tandem.cpp" />
+    <ClCompile Include="GTOPtoolbox\Pl_Eph_An.cpp" />
+    <ClCompile Include="GTOPtoolbox\PowSwingByInv.cpp" />
+    <ClCompile Include="GTOPtoolbox\propagateKEP.cpp" />
+    <ClCompile Include="GTOPtoolbox\time2distance.cpp" />
+    <ClCompile Include="GTOPtoolbox\trajobjfuns.cpp" />
+    <ClCompile Include="GTOPtoolbox\ZeroFinder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AstroFileReader.h" />
+    <ClInclude Include="bsc.h" />
+    <ClInclude Include="bsc2.h" />
+    <ClInclude Include="CRTTSkyBoxSceneNode.h" />
+    <ClInclude Include="cubeSphere.h" />
+    <ClInclude Include="doubleVectorOps.h" />
+    <ClInclude Include="f2c.h" />
+    <ClInclude Include="Geopack-2008.h" />
+    <ClInclude Include="IndexedPrimitiveNode.h" />
+    <ClInclude Include="kepler.h" />
+    <ClInclude Include="lunar.h" />
+    <ClInclude Include="satellite.h" />
+    <ClInclude Include="solar.h" />
+    <ClInclude Include="t96_01.h" />
+    <ClInclude Include="GTOPtoolbox\Astro_Functions.h" />
+    <ClInclude Include="GTOPtoolbox\Lambert.h" />
+    <ClInclude Include="GTOPtoolbox\mga.h" />
+    <ClInclude Include="GTOPtoolbox\mga_dsm.h" />
+    <ClInclude Include="GTOPtoolbox\misc4Tandem.h" />
+    <ClInclude Include="GTOPtoolbox\Pl_Eph_An.h" />
+    <ClInclude Include="GTOPtoolbox\PowSwingByInv.h" />
+    <ClInclude Include="GTOPtoolbox\propagateKEP.h" />
+    <ClInclude Include="GTOPtoolbox\time2distance.h" />
+    <ClInclude Include="GTOPtoolbox\trajobjfuns.h" />
+    <ClInclude Include="GTOPtoolbox\ZeroFinder.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

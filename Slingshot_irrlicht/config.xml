@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+<!--This is the config file for irrSolarSystem. You can change the 
+planets mass, Camera-Speed, Timestep and Startdate here.-->                 
+                                            
+<Mercury mass="330.2e21" />                 
+<Venus   mass="4868.5e21" />                 
+<Earth   mass="5973.6e21" />                 
+<Mars    mass="641.85e21" />                 
+<Jupiter mass="1898600e21" />               
+<Saturn  mass="568460e21" />               
+<Uranus  mass="86832e21" />
+<Neptune mass="102430e21" />
+<Pluto   mass="13.105e21" />
+<Sun     mass="1989100000e21" />
+
+<Timestep step="100" />
+
+<year is="2010"/>
+<month is="12"/>
+<day is="22"/>
+<hour is="10"/>
+<minute is="57"/>
+<second is="0"/>
+
+<CamSpeedUpDown speed="0.0005" />
+<CamSpeedLeftRight speed="0.0005" />
+<CamSpeedForwardBackward speed="0.00065" />
+
+</config>
